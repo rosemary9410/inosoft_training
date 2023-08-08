@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Tugas 2</title>
+  <!-- Tambahkan link CSS dari Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Gaya tambahan khusus */
+    .yuhu{
+        color: red;
+        text-align: center;
+    }
+    body {
+      background-color: white;
+      padding: 20px;
+    }
+    .navbar {
+      background-color: red;
+      color: white;
+      text-align: center;
+    }
+    .gambar-caption {
+      position: relative;
+      overflow: hidden;
+    }
+    .gambar-caption img {
+      transition: transform 0.3s;
+    }
+    .gambar-caption:hover img {
+      transform: scale(1.1);
+    }
+    .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .footer {
+      background-color: red;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <h2 class="container">Indonesia Merdeka 78<sup>th</sup></h2>
+      </div>
+  </nav>
+    <marquee class="yuhu">Dirgahayu RI ke-78, Merdekaaa!!!</marquee>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-12 text-center mb-4">
+        <img src="https://awsimages.detik.net.id/community/media/visual/2023/08/07/logo-hut-ke-78-ri_169.jpeg?w=620" alt="Headline Gambar" class="img-fluid">
+      </div>
+    </div>
+    <h3 class="yuhu">-- Acara Tahunan --</h3>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="gambar-caption">
+          <img src="https://static.republika.co.id/uploads/images/inpicture_slide/suryanto-dan-empat-temannya-berhasil-memenangkan-lomba-panjat-pinang-_190817213513-332.jpg" alt="Gambar 1" class="img-fluid">
+          <div class="caption">Lomba Panjat Pinang</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gambar-caption">
+          <img src="https://www.balinetizen.com/wp-content/uploads/2019/08/WhatsApp-Image-2019-08-09-at-21.07.47.jpeg" alt="Gambar 2" class="img-fluid">
+          <div class="caption">Gerak Jalan</div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="gambar-caption">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Peringatan-Detik-Detik-Proklamasi-170819-wpa-1_3.jpg/640px-Peringatan-Detik-Detik-Proklamasi-170819-wpa-1_3.jpg" alt="Gambar 3" class="img-fluid">
+          <div class="caption">Upacara Bendera</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h2 class="centered-heading">Langganan Newsletter</h2>
+        <form>
+          <div class="mb-3">
+            <label for="email" class="form-label">Alamat Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Langganan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<br>
+<br>
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Created by Mary</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
