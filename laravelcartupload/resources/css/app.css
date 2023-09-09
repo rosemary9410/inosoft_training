@@ -1,0 +1,41 @@
+/* Import Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+/* Penyesuaian khusus Anda di bawah ini */
+body {
+    padding-top: 50px; /* Menambahkan ruang atas untuk navbar Bootstrap jika Anda menggunakannya */
+}
+
+/* Menyesuaikan warna latar belakang elemen dengan kelas "custom-bg" */
+.custom-bg {
+    background-color: #f0f0f0;
+}
+
+/* Mengubah warna teks tombol warna primer */
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Menyesuaikan gaya navbar jika Anda menggunakannya */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Menyesuaikan gaya judul header */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* Menambahkan padding pada footer */
+footer {
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
