@@ -1,1 +1,1 @@
-# inosoft_training
+This is my projects, in frontend
